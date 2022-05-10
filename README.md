@@ -1,2 +1,1 @@
-# TheScribeNoteTaker_hw11
-Homework 11
+# Note Taker Starter Code
