@@ -1,0 +1,23 @@
+{
+  "name": "scribbler",
+  "version": "1.0.0",
+  "description": "note taking app using expressjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TheScribeNoteTaker_hw11"
+  },
+  "keywords": [
+    "scribe"
+  ],
+  "author": "Christian Lemmy Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1"
+  }
+}
