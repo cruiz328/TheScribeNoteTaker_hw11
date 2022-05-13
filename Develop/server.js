@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 5050;
 // a port can only be listened to by 1 server at a time
 
 
-app.use(express.json());
-app.use(express.static('public'));
-app.use(express.urlencoded({ extended: true }));
+app.get(express.json());
+app.get(express.static('public'));
+app.get(express.urlencoded({ extended: true }));
 
 // app.use('/', htmlRoutes);
 
@@ -23,5 +23,5 @@ app.use(express.urlencoded({ extended: true }));
 
 // make our server listen for requests on our port, to respond to any requests
 app.listen(PORT, () => { 
-    console.log(`API server now on the port ${PORT}`); 
+    console.log(`Listening for port/server ${PORT}`); 
 });
