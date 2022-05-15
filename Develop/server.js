@@ -8,7 +8,7 @@ const app = express();
 
 
 // Process.env is what's known as the environmental variable
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 3001;
 // we can run many servers on 1 machine
 // a port can only be listened to by 1 server at a time
 
