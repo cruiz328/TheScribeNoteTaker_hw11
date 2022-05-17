@@ -3,8 +3,8 @@ const express = require('express');
 // this creates a "server" object that we can use to listen for requests
 const app = express();
 
-// const htmlRoutes = require('./routes/html')
-// const apiRoutes = require('./routes/api');
+const htmlRoutes = require('./routes/html')
+const apiRoutes = require('./routes/api');
 
 
 // Process.env is what's known as the environmental variable
@@ -17,9 +17,8 @@ app.get(express.json());
 app.get(express.static('public'));
 app.get(express.urlencoded({ extended: true }));
 
-// app.use('/', htmlRoutes);
-
-// app.use('/api', apiRoutes);
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // make our server listen for requests on our port, to respond to any requests
 app.listen(PORT, () => { 

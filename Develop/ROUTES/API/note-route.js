@@ -1,11 +1,9 @@
 const router = require('express').Router(); 
 const fs = require('fs');
-// const { notes }  = require('../../data/notes'); 
 const { notes } = require('../../data/notes');
 const { v4: uuid4 } = require('uuid');
-// const { createNewNote, validatePost, deleteNote } = require('../../lib/notes');
 const { createNewNote, validatePost, deleteNote } = require('../../lib/notes');
-// const { createNewNote, validatePost, deleteNote } = require('../../lib/notes');
+
 
 router.get('/notes', (req, res) => {
     let results = notes; 
@@ -25,10 +23,10 @@ router.post('/notes', (req, res) => {
     }
 });
 
-// router.delete('/notes/:id', (req, res) => {
-//     deleteNote(notes, req.params.id);
-//     res.json(notes)
-// });
+router.delete('/notes/:id', (req, res) => {
+    deleteNote(notes, req.params.id);
+    res.json(notes)
+});
 
 
 module.exports = router; 
