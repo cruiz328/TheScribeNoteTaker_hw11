@@ -1,5 +1,4 @@
-# Title of the Project
-TheScribeNoteTaker_hw11
+# TheScribeNoteTaker_hw11
 # Description
   A note taking app for all those great ideas one has
   
