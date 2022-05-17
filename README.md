@@ -4,11 +4,11 @@ TheScribeNoteTaker_hw11
   A note taking app for all those great ideas one has
  # Installation Instructions:
   Click the green "code", and click the ssh link, go into terminal and clone into local machine. 
-## Step One
+### Step One
   run npm i to install all dependencies. 
-## Step Two
+### Step Two
    Then run npm start or nodemon server to launch a local server. 
-## Step Three
+### Step Three
    now you can make new notes with titles, search old notes you've written with the "+" save button and delete those old embarrasing ideas 
  # Usage Information:
   Install and use at leaisure for brainstorming
@@ -18,6 +18,6 @@ TheScribeNoteTaker_hw11
  N/A
  # GitHub Username:
  cruiz328 
- # Email:
+## Email:
  lemmy125@gmail.com
-# Video Link:
+## Video Link:
