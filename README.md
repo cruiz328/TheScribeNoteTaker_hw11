@@ -24,12 +24,12 @@ TheScribeNoteTaker_hw11
   Install and use at leaisure for brainstorming
  # Credit
  N/A 
- #**License** 
+ # License
  ![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=success)
  For more info: https://choosealicense.com/licenses/mit/
  
  N/A
- #**GitHub Username**
+ # GitHub Username
  cruiz328 
 ## Email:
  lemmy125@gmail.com
