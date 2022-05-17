@@ -14,7 +14,7 @@
   Click the green "code", and click the ssh link, go into terminal and clone into local machine. 
  # Steps
 ### Step One
-  run npm i to install all dependencies. 
+  run 'npm i' to install all dependencies. 
 ### Step Two
    Then run npm start or nodemon server to launch a local server. 
 ### Step Three
