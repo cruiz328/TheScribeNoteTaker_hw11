@@ -2,7 +2,7 @@
 # Description
   A note taking app for all those great ideas one has
   
-   ##**Table of Contents** 
+# Table of Contents** 
   
   - [installation](#installation)
   - [Steps](#steps)
@@ -19,17 +19,15 @@
    Then run npm start or nodemon server to launch a local server. 
 ### Step Three
    now you can make new notes with titles, search old notes you've written with the "+" save button and delete those old embarrasing ideas 
- # Usage
+# Usage
   Install and use at leaisure for brainstorming
- # Credit
+# Credit
  N/A 
- # License
+# License
  ![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=success)
  For more info: https://choosealicense.com/licenses/mit/
- 
- N/A
- # GitHub Username
+# GitHub Username
  cruiz328 
 ## Email:
- lemmy125@gmail.com
+lemmy125@gmail.com
 ## Video Link:
